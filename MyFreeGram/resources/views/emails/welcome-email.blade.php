@@ -1,12 +1,16 @@
 @component('mail::message')
-# Introduction
+ 
+Welcome is my app.
 
-This is my app.
+<br>
+<br> 
+
+Thanks,<br><br>
+{{ config('app.name') }}
 
 @component('mail::button', ['url' => ''])
 Hi
 @endcomponent
 
-Thanks,<br>
-{{ config('app.name') }}
+
 @endcomponent
