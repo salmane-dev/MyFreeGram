@@ -2,10 +2,8 @@
  
 Welcome is my app.
 
-<br>
-<br> 
-
-Thanks,<br><br>
+<br>  
+Thanks,<br> 
 {{ config('app.name') }}
 
 @component('mail::button', ['url' => ''])
