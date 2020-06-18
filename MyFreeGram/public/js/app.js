@@ -37492,11 +37492,15 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
-    _c("button", {
-      staticClass: "btn btn-primary ml-4 w-100",
-      domProps: { textContent: _vm._s(_vm.buttonText) },
-      on: { click: _vm.followUser }
-    })
+    _c(
+      "button",
+      {
+        staticClass: "btn btn-primary btn-sm  ",
+        domProps: { textContent: _vm._s(_vm.buttonText) },
+        on: { click: _vm.followUser }
+      },
+      [_vm._v("ss ")]
+    )
   ])
 }
 var staticRenderFns = []

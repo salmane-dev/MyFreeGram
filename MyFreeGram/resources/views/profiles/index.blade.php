@@ -15,8 +15,8 @@
                 </div>
                 
             @can('update', $user->profile)
-                <a href="/profiles/{{$user->id}}/edit" class="btn btn-info">Edit Profile </a>
-                <a href="/p/create" class="btn btn-success">Add new post </a>
+                <a href="/profiles/{{$user->id}}/edit" class="btn btn-info btn-sm">Edit Profile </a>
+                <a href="/p/create" class="btn btn-success btn-sm">Add new post </a>
             @endcan
              
             </div>
