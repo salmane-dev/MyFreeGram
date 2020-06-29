@@ -12,7 +12,7 @@
         </a>
     </div>
 </div>
-
+ 
 <div class="row pt-1 pb-5"> 
 
     <div class="col-8 offset-2">
